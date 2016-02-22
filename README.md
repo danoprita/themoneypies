@@ -1,5 +1,7 @@
 # themoneypies
 
+https://travis-ci.org/danoprita/themoneypies.svg?branch=master
+
 Build and run
 -------------
  - Clone repository
