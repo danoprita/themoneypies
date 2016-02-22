@@ -1,0 +1,30 @@
+
+
+
+
+Tranzactii
+Criterii de cautare
+Numar cont:,RO12BTRL1234567891234567 RON
+Perioada:,01.02.2016-28.04.2016
+
+
+Cont
+Utilizator:, JOHN DOE
+Client:, JOHN DOE
+Numar cont:,RO12BTRL1234567891234567 RON
+Gasit:,13 Tranzactii.
+Rezultat cautare
+Data tranzactie,Data valuta:,Descriere:,Referinta tranzactiei,Debit,Credit,Sold contabil
+2016-02-01,2016-02-01,"Plata la POS non-BT cu card MASTERCARD; McDonalds",D123456789,"-30",,"-530"
+2016-02-01,2016-02-01,"Plata la POS non-BT cu card MASTERCARD; OMV",D123456789,"-200",,"-730"
+2016-02-01,2016-02-01,"Plata la POS non-BT cu card MASTERCARD; CARREFOUR ROMANIA",123456789,"-120",,"-850"
+2016-02-13,2016-02-13,"Transfer intern - canal electronic;rulaj februarie;",123456789,,"500","-350"
+2016-03-01,2016-03-01,"Plata la POS non-BT cu card MASTERCARD; ZARA",D123456789,"-200",,"-550"
+2016-03-02,2016-03-02,"Plata la POS non-BT cu card MASTERCARD; OMV",D123456789,"-250",,"-800"
+2016-03-09,2016-03-09,"Plata la POS non-BT cu card MASTERCARD; AUCHAN",123456789,"-80",,"-880"
+2016-03-13,2016-03-13,"Transfer intern - canal electronic;rulaj martie;",123456789,,"350","-530"
+2016-03-20,2016-03-20,"Plata la POS non-BT cu card MASTERCARD; ORANGE",D123456789,"-50",,"-580"
+2016-04-06,2016-04-06,"Plata la POS non-BT cu card MASTERCARD; OMV",D123456789,"-100",,"-680"
+2016-04-09,2016-04-09,"Plata la POS non-BT cu card MASTERCARD; AUCHAN",123456789,"-90",,"-770"
+2016-04-19,2016-04-19,"Transfer intern - canal electronic;rulaj aprilie;",123456789,,"580","-190"
+2016-04-22,2016-04-22,"Plata la POS non-BT cu card MASTERCARD; CARREFOUR ROMANIA",D123456789,"-110",,"-300"

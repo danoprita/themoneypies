@@ -1,0 +1,35 @@
+
+
+
+
+Tranzactii
+Criterii de cautare
+Numar cont:,RO12BTRL1234567891234567 RON
+Perioada:,01.02.2016-28.04.2016
+
+
+Cont
+Utilizator:, JOHN DOE
+Client:, JOHN DOE
+Numar cont:,RO12BTRL1234567891234567 RON
+Gasit:,18 Tranzactii.
+Rezultat cautare
+Data tranzactie,Data valuta:,Descriere:,Referinta tranzactiei,Debit,Credit,Sold contabil
+2016-02-10,2016-02-10,"Procesare borderou;salariu februarie 2016",123456789,,"1,000","1,650"
+2016-02-11,2016-02-11,"Constituire depozit",123456789,"-300.00",,"1,350"
+2016-02-12,2016-02-12,"Retragere de numerar de la ATM BT;ATM ATM CLUJ",123456789,"-250.00",,"1,100"
+2016-02-13,2016-02-13,"Transfer intern - canal electronic;rulaj februarie;",123456789,-500,,"600"
+2016-02-15,2016-02-15,"Plata la POS non-BT cu card MASTERCARD; ELECTRICA",D123456789,"-50",,"550"
+2016-02-15,2016-02-15,"Plata la POS non-BT cu card MASTERCARD; EON",D123456789,"-100",,"450"
+2016-03-10,2016-03-10,"Procesare borderou;salariu martie 2016",123456789,,"1,000","1,450"
+2016-03-11,2016-03-11,"Constituire depozit",123456789,"-400.00",,"1,000"
+2016-03-12,2016-03-12,"Retragere de numerar de la ATM BT;ATM ATM CLUJ",123456789,"-200.00",,"800"
+2016-03-13,2016-03-13,"Transfer intern - canal electronic;rulaj martie;",123456789,-350,,"470"
+2016-03-15,2016-03-15,"Plata la POS non-BT cu card MASTERCARD; ELECTRICA",D123456789,"-40",,"430"
+2016-03-15,2016-03-15,"Plata la POS non-BT cu card MASTERCARD; EON",D123456789,"-120",,"310"
+2016-04-10,2016-04-10,"Procesare borderou;salariu aprilie 2016",123456789,,"1,100","1,410"
+2016-04-15,2016-04-15,"Constituire depozit",123456789,"-200.00",,"1,210"
+2016-04-16,2016-04-16,"Retragere de numerar de la ATM BT;ATM ATM CLUJ",123456789,"-300.00",,"910"
+2016-04-19,2016-04-19,"Transfer intern - canal electronic;rulaj aprilie;",123456789,-580,,"330"
+2016-04-25,2016-04-25,"Plata la POS non-BT cu card MASTERCARD; ELECTRICA",D123456789,"-50",,"280"
+2016-04-25,2016-04-25,"Plata la POS non-BT cu card MASTERCARD; EON",D123456789,"-100",,"180"

@@ -1,0 +1,31 @@
+<style>
+    .transaction .panel-heading span {
+        margin-right: 10px;
+    }
+</style>
+
+<div ng-repeat="transaction in transactions" class="transaction panel panel-default">
+    <div class="panel-heading">
+        <span class="label label-default">
+            {{getDate(transaction.date)}}
+        </span>
+
+        <span class="label label-primary" ng-show="transaction.debit">
+            {{transaction.debit}}
+        </span>
+
+        <span class="label label-success" ng-show="transaction.credit">
+            {{transaction.credit}}
+        </span>
+
+        <span class="label label-info" ng-repeat="rule in transaction.matchingRules">
+            <span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+            <span>{{rule.tag}}</span>
+        </span>
+
+        <button ng-click="createRule()" class="btn btn-xs btn-default">Create Rule</button>
+    </div>
+    <div class="panel-body">
+        <div class="transaction-description">{{transaction.description}}</div>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+<div class="row">
+    <div class="col-md-3">
+        <label>Start Date</label>
+        <span class="input-group" style="width: 200px;">
+            <input type="text" class="form-control"
+                   uib-datepicker-popup ng-model="startDate" is-open="startDateConfig.opened"
+                   datepicker-options="dateOptions" ng-required="true" close-text="Close"/>
+              <span class="input-group-btn">
+                <button type="button" class="btn btn-default" ng-click="openStartDate()">
+                    <i class="glyphicon glyphicon-calendar"></i>
+                </button>
+              </span>
+        </span>
+    </div>
+    <div class="col-md-3">
+        <label>End Date</label>
+        <p class="input-group" style="width: 200px;">
+            <input type="text" class="form-control"
+                   uib-datepicker-popup ng-model="endDate" is-open="endDateConfig.opened"
+                   datepicker-options="dateOptions" ng-required="true" close-text="Close"/>
+              <span class="input-group-btn">
+                <button type="button" class="btn btn-default" ng-click="openEndDate()">
+                    <i class="glyphicon glyphicon-calendar"></i>
+                </button>
+              </span>
+        </p>
+    </div>
+    <div class="col-md-1">
+        <button class="btn btn-primary" style="margin-top: 25px;" ng-click="refreshReports()">Refresh Reports</button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <table class="table table-condensed">
+            <tr>
+                <td><strong>Income</strong></td>
+                <td>{{generalReportData.income}}</td>
+            </tr>
+            <tr>
+                <td><strong>Expenses</strong></td>
+                <td>{{getAbsoluteValue(generalReportData.expenses)}}</td>
+            </tr>
+            <tr>
+                <td><strong>Savings</strong></td>
+                <td>{{generalReportData.savings}}</td>
+            </tr>
+            <tr>
+                <td><strong>Deposits</strong></td>
+                <td>{{generalReportData.deposits}}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div id="expenses-per-tag" style="width: 800px; height: 500px;"></div>
+<div id="savings-per-month" style="width: 1000px; height: 500px;"></div>
+<div id="tags-per-month" style="width: 1000px; height: 500px;"></div>

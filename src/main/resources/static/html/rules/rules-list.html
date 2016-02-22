@@ -1,0 +1,26 @@
+<style>
+    .rule .panel-heading span {
+        margin-right: 10px;
+    }
+</style>
+
+<div ng-repeat="rule in rules" class="rule panel panel-default">
+    <div class="panel-heading">
+        <span class="label label-info">
+            <span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+            <span>{{rule.tag}}</span>
+        </span>
+        <span class="label label-danger" ng-show="rule.exclude">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+            <span>EXCLUDE</span>
+        </span>
+        <span class="label label-warning" ng-show="rule.savings">
+            <span class="glyphicon glyphicon-piggy-bank" aria-hidden="true"></span>
+            <span>Savings</span>
+        </span>
+        <button class="btn btn-xs btn-default" ng-click="deleteRule(rule)">Delete</button>
+    </div>
+    <div class="panel-body">
+        <div class="transaction-description" title="Patterns">{{getPatterns(rule)}}</div>
+    </div>
+</div>
