@@ -1,6 +1,6 @@
 # themoneypies
 
-https://travis-ci.org/danoprita/themoneypies.svg?branch=master
+[![Build Status](https://travis-ci.org/danoprita/themoneypies.svg?branch=master)](https://travis-ci.org/danoprita/themoneypies)
 
 Build and run
 -------------
