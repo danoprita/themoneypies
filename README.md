@@ -4,7 +4,7 @@
 
 ## Build and run
 
-1. Clone the blog repo:
+1. Clone the repo:
 
         git clone git@github.com:danoprita/themoneypies.git
 
