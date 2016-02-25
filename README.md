@@ -6,7 +6,7 @@
 
 1. Clone the repo:
 
-        git clone git@github.com:danoprita/themoneypies.git
+        git clone https://github.com/danoprita/themoneypies.git
 
 1. Install npm. See NodeJS: [https://nodejs.org/en/](https://nodejs.org/en/)
 
